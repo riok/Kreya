@@ -22,7 +22,6 @@ Submit bug reports or feature requests in the [issue tracker](https://github.com
 A broad overview of features we want to implement in Kreya:
 - Response history
 - Base environment
-- Linux support
 - Cache importer information
 - Project or folder settings (ex. define the gRPC endpoint only once for all requests)
 - Custom keymap support
