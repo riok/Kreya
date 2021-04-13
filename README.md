@@ -7,6 +7,7 @@ Kreya is a gRPC GUI client. It makes calling gRPC APIs easy! Supported features:
 - Authentication configurations - declare once, use everywhere
 - Environments
 - Powerful templating language
+- Project or directory settings (ex. define the gRPC endpoint only once for all requests)
 - And more!
 
 ## Where can I get it?
@@ -19,13 +20,11 @@ Checkout out the [Kreya documentation](https://kreya.app/docs/getting-started).
 Submit bug reports or feature requests in the [issue tracker](https://github.com/riok/Kreya/issues). Please check if an identical issue already exists.
 
 ## Roadmap
-A broad overview of features we want to implement in Kreya:
-- Response history
+In addition to the [open issues](https://github.com/riok/Kreya/issues), here is a broad overview of features we want to implement in Kreya:
+- Request and response history
 - Base environment
 - Cache importer information
-- Project or folder settings (ex. define the gRPC endpoint only once for all requests)
 - Custom keymap support
-- Show JWT claims
 
 Far future:
 - REST support
