@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "hello.HelloService.SayHello"
+  },
+  "requests": [
+    {
+      "location": "SayHello-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

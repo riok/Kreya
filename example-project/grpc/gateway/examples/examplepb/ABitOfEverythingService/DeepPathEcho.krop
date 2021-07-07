@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.DeepPathEcho"
+  },
+  "requests": [
+    {
+      "location": "DeepPathEcho-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

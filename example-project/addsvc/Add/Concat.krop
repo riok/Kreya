@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "addsvc.Add.Concat"
+  },
+  "requests": [
+    {
+      "location": "Concat-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

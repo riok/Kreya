@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.PatchWithFieldMaskInBody"
+  },
+  "requests": [
+    {
+      "location": "PatchWithFieldMaskInBody-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.CheckGetQueryParams"
+  },
+  "requests": [
+    {
+      "location": "CheckGetQueryParams-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.CreateBody"
+  },
+  "requests": [
+    {
+      "location": "CreateBody-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

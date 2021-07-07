@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo"
+  },
+  "requests": [
+    {
+      "location": "ServerReflectionInfo-request-0.json"
+    }
+  ],
+  "operationType": "duplexStreaming",
+  "invokerName": "grpc"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "3f2f4cdb-b421-4355-b02b-27ccd1569e12",
+  "importStreams": [
+    {
+      "id": "463869a1-4cf8-470d-871d-c873192881c7",
+      "name": "server-reflection-importer",
+      "importerName": "GrpcServerReflection",
+      "createMissingOperations": true,
+      "options": {
+        "endpoint": "https://grpcb.in"
+      }
+    }
+  ],
+  "authConfigs": [],
+  "certificates": []
+}

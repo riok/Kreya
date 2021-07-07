@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.GetQuery"
+  },
+  "requests": [
+    {
+      "location": "GetQuery-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpcbin.GRPCBin.Index"
+  },
+  "requests": [
+    {
+      "location": "Index-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

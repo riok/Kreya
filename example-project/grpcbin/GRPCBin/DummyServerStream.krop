@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpcbin.GRPCBin.DummyServerStream"
+  },
+  "requests": [
+    {
+      "location": "DummyServerStream-request.json"
+    }
+  ],
+  "operationType": "serverStreaming",
+  "invokerName": "grpc"
+}

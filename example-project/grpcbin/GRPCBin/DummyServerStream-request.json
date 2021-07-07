@@ -1,0 +1,48 @@
+{
+  "fString": "fooBar",
+  "fStrings": [
+    "fooBar",
+    "fooBar"
+  ],
+  "fInt32": 123,
+  "fInt32s": [
+    123,
+    123
+  ],
+  "fEnum": "ENUM_0",
+  "fEnums": [
+    "ENUM_0",
+    "ENUM_0"
+  ],
+  "fSub": {
+    "fString": "fooBar"
+  },
+  "fSubs": [
+    {
+      "fString": "fooBar"
+    },
+    {
+      "fString": "fooBar"
+    }
+  ],
+  "fBool": true,
+  "fBools": [
+    true,
+    true
+  ],
+  "fInt64": "123",
+  "fInt64s": [
+    "123",
+    "123"
+  ],
+  "fBytes": "Zm9vQmFy",
+  "fBytess": [
+    "Zm9vQmFy",
+    "Zm9vQmFy"
+  ],
+  "fFloat": 1.23,
+  "fFloats": [
+    1.23,
+    1.23
+  ]
+}
