@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpcbin.GRPCBin.DummyUnary"
+  },
+  "requests": [
+    {
+      "location": "DummyUnary-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

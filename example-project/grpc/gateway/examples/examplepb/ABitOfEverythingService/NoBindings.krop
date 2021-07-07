@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.NoBindings"
+  },
+  "requests": [
+    {
+      "location": "NoBindings-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.ErrorWithDetails"
+  },
+  "requests": [
+    {
+      "location": "ErrorWithDetails-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

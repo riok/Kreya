@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "hello.HelloService.LotsOfReplies"
+  },
+  "requests": [
+    {
+      "location": "LotsOfReplies-request.json"
+    }
+  ],
+  "operationType": "serverStreaming",
+  "invokerName": "grpc"
+}

@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.Update"
+  },
+  "requests": [
+    {
+      "location": "Update-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

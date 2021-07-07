@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.Lookup"
+  },
+  "requests": [
+    {
+      "location": "Lookup-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

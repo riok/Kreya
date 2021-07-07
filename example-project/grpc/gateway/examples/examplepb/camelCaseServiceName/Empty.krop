@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.camelCaseServiceName.Empty"
+  },
+  "requests": [
+    {
+      "location": "Empty-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

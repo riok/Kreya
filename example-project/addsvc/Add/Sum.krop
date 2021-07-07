@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "addsvc.Add.Sum"
+  },
+  "requests": [
+    {
+      "location": "Sum-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

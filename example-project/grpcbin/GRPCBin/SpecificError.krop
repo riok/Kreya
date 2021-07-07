@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpcbin.GRPCBin.SpecificError"
+  },
+  "requests": [
+    {
+      "location": "SpecificError-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

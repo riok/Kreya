@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpcbin.GRPCBin.RandomError"
+  },
+  "requests": [
+    {
+      "location": "RandomError-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

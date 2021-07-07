@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "grpc.gateway.examples.examplepb.ABitOfEverythingService.Timeout"
+  },
+  "requests": [
+    {
+      "location": "Timeout-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

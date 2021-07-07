@@ -1,0 +1,7 @@
+{
+  "id": "b248d686-7c81-4f85-a97e-6c91ce548549",
+  "color": "#880c0c",
+  "globalContent": {
+    "endpoint": "http://grpcb.in:9000"
+  }
+}
