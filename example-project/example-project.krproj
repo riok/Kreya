@@ -11,6 +11,16 @@
       }
     }
   ],
-  "authConfigs": [],
+  "authConfigs": [
+    {
+      "name": "myAuth",
+      "providerName": "basic",
+      "id": "f5650324-adf4-414c-81cc-d03dfbad08ae",
+      "options": {
+        "username": "PanCakes",
+        "password": "GoldenRetriever"
+      }
+    }
+  ],
   "certificates": []
 }

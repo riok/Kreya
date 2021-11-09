@@ -1,0 +1,5 @@
+{
+  // auth object access can be used for e.g. 
+  // custom header or in the request body
+  "greeting": "{{ auth.configs.myauth.value }}"
+}
