@@ -1,0 +1,16 @@
+{
+  "details": {
+    "path": "/anything",
+    "method": "GET",
+    "importedOperationId": "GET /anything (cfe3f74c-0483-41e5-85d3-36c85f25e8bb)",
+    "headers": []
+  },
+  "requests": [
+    {
+      "contentType": "none"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "GET"
+}

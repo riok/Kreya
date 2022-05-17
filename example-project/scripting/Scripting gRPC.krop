@@ -1,0 +1,15 @@
+{
+  "details": {
+    "methodFqn": "hello.HelloService.SayHello"
+  },
+  "script": {
+    "src": "Scripting gRPC.js"
+  },
+  "requests": [
+    {
+      "location": "Scripting gRPC-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

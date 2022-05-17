@@ -1,0 +1,17 @@
+{
+  "details": {
+    "path": "/anything",
+    "method": "GET"
+  },
+  "script": {
+    "src": "Scripting REST.js"
+  },
+  "requests": [
+    {
+      "contentType": "none"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "GET"
+}
