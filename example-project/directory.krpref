@@ -3,7 +3,10 @@
     {
       "options": {
         "grpc": {
-          "endpoint": "{{ env.endpoint }}"
+          "endpoint": "{{ env.grpc_endpoint }}"
+        },
+        "rest": {
+          "endpoint": "{{ env.rest_endpoint }}"
         }
       }
     }

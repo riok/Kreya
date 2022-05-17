@@ -9,6 +9,15 @@
       "options": {
         "endpoint": "https://grpcb.in"
       }
+    },
+    {
+      "id": "cfe3f74c-0483-41e5-85d3-36c85f25e8bb",
+      "name": "REST httpbin",
+      "importerName": "OpenApiUrlImporter",
+      "createMissingOperations": false,
+      "options": {
+        "url": "https://httpbin.org/spec.json"
+      }
     }
   ],
   "authConfigs": [

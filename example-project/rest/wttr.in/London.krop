@@ -1,0 +1,14 @@
+{
+  "details": {
+    "path": "/London?format=3",
+    "method": "GET"
+  },
+  "requests": [
+    {
+      "contentType": "none"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "GET"
+}
