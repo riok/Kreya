@@ -1,0 +1,21 @@
+{
+  "details": {
+    "path": "/status/{code}",
+    "method": "POST",
+    "headers": [],
+    "pathParams": [
+      {
+        "key": "code",
+        "value": ""
+      }
+    ]
+  },
+  "requests": [
+    {
+      "contentType": "none"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "POST"
+}
