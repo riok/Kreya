@@ -9,6 +9,7 @@ Kreya is a GUI client for gRPC and REST APIs. It makes calling APIs easy! Suppor
 - Powerful templating language
 - Project or directory settings (ex. define the endpoint only once for all requests)
 - Scripting and tests
+- kreyac, the Kreya CLI
 - And more!
 
 ## Where can I get it?
@@ -22,9 +23,7 @@ Submit bug reports or feature requests in the [issue tracker](https://github.com
 
 ## Roadmap
 In addition to the [open issues](https://github.com/riok/Kreya/issues), here is a broad overview of features we want to implement in Kreya:
-- Improve request and response history
 - Expand scripting and tests
-- Send operations simultaneously
 - Custom keymap support
 
 Far future:
