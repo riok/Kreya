@@ -1,0 +1,16 @@
+{
+  "settings": [
+    {
+      "options": {
+        "rest": {
+          "pathParams": [
+            {
+              "key": "code",
+              "value": "451"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

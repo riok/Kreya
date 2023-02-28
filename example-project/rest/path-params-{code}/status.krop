@@ -1,0 +1,21 @@
+{
+  "details": {
+    "path": "/status/{code}",
+    "method": "GET",
+    "headers": [],
+    "pathParams": [
+      {
+        "key": "code",
+        "value": "418"
+      }
+    ]
+  },
+  "requests": [
+    {
+      "contentType": "none"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "GET"
+}
