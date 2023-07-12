@@ -3,10 +3,23 @@
     {
       "options": {
         "grpc": {
-          "endpoint": "{{ env.grpc_endpoint }}"
+          "endpoint": "{{ env.grpc_endpoint }}",
+          "metadata": [
+            {
+              "key": "info-text",
+              "value": "i am a default settings metadata"
+            }
+          ]
         },
         "rest": {
-          "endpoint": "{{ env.rest_endpoint }}"
+          "endpoint": "{{ env.rest_endpoint }}",
+          "headers": [
+            {
+              "key": "info-text",
+              "value": "i am a default settings header"
+            }
+          ],
+          "pathParams": []
         }
       }
     }

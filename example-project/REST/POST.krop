@@ -1,0 +1,22 @@
+{
+  "details": {
+    "path": "/anything",
+    "method": "POST",
+    "headers": [
+      {
+        "key": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "pathParams": []
+  },
+  "requests": [
+    {
+      "location": "POST-request.json",
+      "contentType": "json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "POST"
+}
