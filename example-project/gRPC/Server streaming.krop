@@ -1,0 +1,13 @@
+{
+  "details": {
+    "methodFqn": "hello.HelloService.LotsOfReplies"
+  },
+  "requests": [
+    {
+      "location": "Server streaming-request.json"
+    }
+  ],
+  "operationType": "serverStreaming",
+  "invokerName": "grpc",
+  "importStreamId": "463869a1-4cf8-470d-871d-c873192881c7"
+}

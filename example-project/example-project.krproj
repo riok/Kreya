@@ -3,16 +3,16 @@
   "importStreams": [
     {
       "id": "463869a1-4cf8-470d-871d-c873192881c7",
-      "name": "server-reflection-importer",
+      "name": "gRPC server reflection importer",
       "importerName": "GrpcServerReflection",
-      "createMissingOperations": true,
+      "createMissingOperations": false,
       "options": {
         "endpoint": "https://grpcb.in"
       }
     },
     {
-      "id": "cfe3f74c-0483-41e5-85d3-36c85f25e8bb",
-      "name": "REST httpbin",
+      "id": "3173a966-56b1-435f-9a60-937058ec6c80",
+      "name": "REST OpenAPI URL importer",
       "importerName": "OpenApiUrlImporter",
       "createMissingOperations": false,
       "options": {
