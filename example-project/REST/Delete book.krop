@@ -1,0 +1,23 @@
+{
+  "details": {
+    "path": "/v1/books/{id}",
+    "method": "DELETE",
+    "importedOperationId": "DELETE /v1/books/{id}",
+    "headers": [],
+    "pathParams": [
+      {
+        "key": "id",
+        "value": "1"
+      }
+    ]
+  },
+  "requests": [
+    {
+      "contentType": "none"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "DELETE",
+  "importStreamId": "3173a966-56b1-435f-9a60-937058ec6c80"
+}

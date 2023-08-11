@@ -7,7 +7,7 @@
       "importerName": "GrpcServerReflection",
       "createMissingOperations": false,
       "options": {
-        "endpoint": "https://grpcb.in"
+        "endpoint": "https://example-api.kreya.app:9090"
       }
     },
     {
@@ -16,7 +16,7 @@
       "importerName": "OpenApiUrlImporter",
       "createMissingOperations": false,
       "options": {
-        "url": "https://httpbin.org/spec.json"
+        "url": "https://example-api.kreya.app/swagger/v1/swagger.json"
       }
     }
   ],
@@ -26,8 +26,8 @@
       "providerName": "basic",
       "id": "f5650324-adf4-414c-81cc-d03dfbad08ae",
       "options": {
-        "username": "PanCakes",
-        "password": "GoldenRetriever"
+        "username": "my-user-name",
+        "password": "{{ env.basic_auth_password }}"
       }
     }
   ],

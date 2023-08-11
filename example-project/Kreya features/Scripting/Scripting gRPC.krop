@@ -1,6 +1,6 @@
 {
   "details": {
-    "methodFqn": "hello.HelloService.SayHello"
+    "methodFqn": "kreya.ExampleService.SayHello"
   },
   "script": {
     "src": "Scripting gRPC.js"
@@ -11,5 +11,6 @@
     }
   ],
   "operationType": "unary",
-  "invokerName": "grpc"
+  "invokerName": "grpc",
+  "importStreamId": "463869a1-4cf8-470d-871d-c873192881c7"
 }

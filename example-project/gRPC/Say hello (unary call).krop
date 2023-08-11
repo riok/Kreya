@@ -1,10 +1,10 @@
 {
   "details": {
-    "methodFqn": "hello.HelloService.SayHello"
+    "methodFqn": "kreya.ExampleService.SayHello"
   },
   "requests": [
     {
-      "location": "Unary call-request.json"
+      "location": "Say hello (unary call)-request.json"
     }
   ],
   "operationType": "unary",

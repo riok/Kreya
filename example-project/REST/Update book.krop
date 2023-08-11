@@ -1,24 +1,29 @@
 {
   "details": {
-    "path": "/anything",
+    "path": "/v1/books/{id}",
     "method": "PUT",
-    "importedOperationId": "PUT /anything",
+    "importedOperationId": "PUT /v1/books/{id}",
     "headers": [
       {
         "key": "Content-Type",
         "value": "application/json"
       }
     ],
-    "pathParams": []
+    "pathParams": [
+      {
+        "key": "id",
+        "value": "3"
+      }
+    ]
   },
   "requests": [
     {
-      "location": "PUT-request.json",
+      "location": "Update book-request.json",
       "contentType": "json"
     }
   ],
   "operationType": "unary",
   "invokerName": "rest",
   "typeHint": "PUT",
-  "importStreamId": "cfe3f74c-0483-41e5-85d3-36c85f25e8bb"
+  "importStreamId": "3173a966-56b1-435f-9a60-937058ec6c80"
 }

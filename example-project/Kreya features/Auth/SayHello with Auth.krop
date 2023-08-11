@@ -1,6 +1,6 @@
 {
   "details": {
-    "methodFqn": "hello.HelloService.SayHello"
+    "methodFqn": "kreya.ExampleService.SayHello"
   },
   "requests": [
     {

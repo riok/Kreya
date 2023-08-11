@@ -1,0 +1,3 @@
+{
+  "message": "{{ vars.messages ? vars.messages[1] : 'no messages set' }}"
+}

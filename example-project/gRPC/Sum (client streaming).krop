@@ -1,0 +1,19 @@
+{
+  "details": {
+    "methodFqn": "kreya.ExampleService.Sum"
+  },
+  "requests": [
+    {
+      "location": "Sum (client streaming)-request-0.json"
+    },
+    {
+      "location": "Sum (client streaming)-request-1.json"
+    },
+    {
+      "location": "Sum (client streaming)-request-2.json"
+    }
+  ],
+  "operationType": "clientStreaming",
+  "invokerName": "grpc",
+  "importStreamId": "463869a1-4cf8-470d-871d-c873192881c7"
+}

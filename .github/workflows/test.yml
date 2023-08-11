@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v3
       - run: kreyac info
       - run: kreyac environment list
-      - run: kreyac environment set-active production
-      - run: kreyac operation invoke "REST/wttr.in/London.krop" # invoke a single REST operation
-      - run: kreyac operation invoke "gRPC/Unary call.krop" # invoke a single gRPC operation
+      - run: kreyac environment set-active Production
+      - run: kreyac operation invoke "REST/Get books.krop" # invoke a single REST operation
+      - run: kreyac operation invoke "gRPC/Say hello (unary call).krop" # invoke a single gRPC operation
       - run: kreyac operation invoke "Kreya features/Scripting/**" # invoke all scripting operations
