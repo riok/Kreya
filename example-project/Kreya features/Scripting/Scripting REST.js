@@ -8,9 +8,6 @@ kreyaRest.onCallCompleted(call => {
 
   kreya.test('Content type', () => expect(call.response.contentType).to.eq('application/json'));
 
-  const curlyBraceCharCode = '{'.charCodeAt(0);
-  kreya.test('Byte content first entry should be a curly brace', () => expect(call.response.rawContentBytes[0]).to.eq(curlyBraceCharCode));
-  kreya.test('Text content first char should be a curly brace', () => expect(call.response.rawContentText[0]).to.eq('{'));
-
-  kreya.test('Deserialized method should equal', () => expect(call.response.content.method).to.eq('GET'));
+  const books = call.response.content;
+  kreya.test('First book should have ID 1', () => expect(books[0].id).to.eq(1));
 });

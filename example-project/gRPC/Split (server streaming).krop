@@ -1,10 +1,10 @@
 {
   "details": {
-    "methodFqn": "hello.HelloService.LotsOfReplies"
+    "methodFqn": "kreya.ExampleService.Split"
   },
   "requests": [
     {
-      "location": "Server streaming-request.json"
+      "location": "Split (server streaming)-request.json"
     }
   ],
   "operationType": "serverStreaming",

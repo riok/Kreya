@@ -1,7 +1,9 @@
 {
   "details": {
-    "path": "/anything",
-    "method": "GET"
+    "path": "/v1/books",
+    "method": "GET",
+    "headers": [],
+    "pathParams": []
   },
   "script": {
     "src": "Scripting REST.js"

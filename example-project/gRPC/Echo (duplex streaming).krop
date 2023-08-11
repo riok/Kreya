@@ -1,0 +1,19 @@
+{
+  "details": {
+    "methodFqn": "kreya.ExampleService.Echo"
+  },
+  "requests": [
+    {
+      "location": "Echo (duplex streaming)-request-0.json"
+    },
+    {
+      "location": "Echo (duplex streaming)-request-1.json"
+    },
+    {
+      "location": "Echo (duplex streaming)-request-2.json"
+    }
+  ],
+  "operationType": "duplexStreaming",
+  "invokerName": "grpc",
+  "importStreamId": "463869a1-4cf8-470d-871d-c873192881c7"
+}

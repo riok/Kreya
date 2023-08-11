@@ -2,7 +2,8 @@
   "id": "1bd4aaa0-9ade-4b78-a43f-b89304b3ca72",
   "color": "#07832c",
   "globalContent": {
-    "grpc_endpoint": "https://grpcb.in:9001",
-    "rest_endpoint": "https://httpbin.org/"
+    "grpc_endpoint": "https://example-api.kreya.app:9090",
+    "rest_endpoint": "https://example-api.kreya.app",
+    "basic_auth_password": "production-password"
   }
 }

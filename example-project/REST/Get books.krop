@@ -1,9 +1,8 @@
 {
   "details": {
-    "path": "/anything",
+    "path": "/v1/books",
     "method": "GET",
-    "importedOperationId": "GET /anything (cfe3f74c-0483-41e5-85d3-36c85f25e8bb)",
-    "headers": []
+    "importedOperationId": "GET /v1/books"
   },
   "requests": [
     {
@@ -12,5 +11,6 @@
   ],
   "operationType": "unary",
   "invokerName": "rest",
-  "typeHint": "GET"
+  "typeHint": "GET",
+  "importStreamId": "3173a966-56b1-435f-9a60-937058ec6c80"
 }

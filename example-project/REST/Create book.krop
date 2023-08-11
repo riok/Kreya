@@ -1,7 +1,8 @@
 {
   "details": {
-    "path": "/anything",
+    "path": "/v1/books",
     "method": "POST",
+    "importedOperationId": "POST /v1/books",
     "headers": [
       {
         "key": "Content-Type",
@@ -12,11 +13,12 @@
   },
   "requests": [
     {
-      "location": "POST-request.json",
+      "location": "Create book-request.json",
       "contentType": "json"
     }
   ],
   "operationType": "unary",
   "invokerName": "rest",
-  "typeHint": "POST"
+  "typeHint": "POST",
+  "importStreamId": "3173a966-56b1-435f-9a60-937058ec6c80"
 }

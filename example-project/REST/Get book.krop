@@ -1,12 +1,13 @@
 {
   "details": {
-    "path": "/status/{code}",
+    "path": "/v1/books/{id}",
     "method": "GET",
+    "importedOperationId": "GET /v1/books/{id}",
     "headers": [],
     "pathParams": [
       {
-        "key": "code",
-        "value": "418"
+        "key": "id",
+        "value": "1"
       }
     ]
   },
@@ -17,5 +18,6 @@
   ],
   "operationType": "unary",
   "invokerName": "rest",
-  "typeHint": "GET"
+  "typeHint": "GET",
+  "importStreamId": "3173a966-56b1-435f-9a60-937058ec6c80"
 }
