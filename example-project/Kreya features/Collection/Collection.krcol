@@ -1,0 +1,8 @@
+{
+  "operations": [
+    "../../gRPC/Say hello (unary call).krop",
+    "../../REST/Create book.krop",
+    "../Scripting/Scripting REST.krop",
+    "../Scripting/Scripting gRPC.krop"
+  ]
+}
