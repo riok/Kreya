@@ -24,5 +24,6 @@ jobs:
       - run: kreyac environment set-active Production
       - run: kreyac operation invoke "REST/Get books.krop" # invoke a single REST operation
       - run: kreyac operation invoke "gRPC/Say hello (unary call).krop" # invoke a single gRPC operation
+      - run: kreyac operation invoke "WebSocket/Echo.krop" # invoke a single WebSocket operation
       - run: kreyac operation invoke "Kreya features/Scripting/**" # invoke all scripting operations
       - run: kreyac collection invoke "Kreya features/Collection/Collection.krcol" # invoke a collection

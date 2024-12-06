@@ -1,0 +1,3 @@
+{
+  "text": "My JSON message"
+}
