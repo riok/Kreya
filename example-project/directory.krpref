@@ -20,6 +20,9 @@
             }
           ],
           "pathParams": []
+        },
+        "websocket": {
+          "endpoint": "{{ env.websocket_endpoint }}"
         }
       }
     }

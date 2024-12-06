@@ -1,0 +1,20 @@
+{
+  "details": {
+    "path": "/ws/echo"
+  },
+  "script": {
+    "src": "Scripting WebSocket.js"
+  },
+  "requests": [
+    {
+      "location": "Scripting WebSocket-request-0.txt",
+      "type": "json"
+    },
+    {
+      "location": "Scripting WebSocket-request-1.txt",
+      "type": "json"
+    }
+  ],
+  "operationType": "duplexStreaming",
+  "invokerName": "websocket"
+}
