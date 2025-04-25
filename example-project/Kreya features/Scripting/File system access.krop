@@ -1,0 +1,18 @@
+{
+  "details": {
+    "path": "/v1/books/1",
+    "method": "GET",
+    "pathParams": []
+  },
+  "script": {
+    "src": "File system access.js"
+  },
+  "requests": [
+    {
+      "contentType": "none"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "GET"
+}
