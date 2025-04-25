@@ -27,3 +27,4 @@ jobs:
       - run: kreyac operation invoke "WebSocket/Echo.krop" # invoke a single WebSocket operation
       - run: kreyac operation invoke "Kreya features/Scripting/**" # invoke all scripting operations
       - run: kreyac collection invoke "Kreya features/Collection/Collection.krcol" # invoke a collection
+      - run: kreyac script invoke "Kreya features/Script/Simple script.krjs" # invoke a script
