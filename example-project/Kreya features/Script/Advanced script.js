@@ -12,7 +12,7 @@ kreya.test('messages should be set', () => {
 // Invoke operations multiple times
 for (let i = 0; i < 3; i++) {
   const result = await kreya.invokeOperation('../../REST/Get book');
-  
+
   if (!result.success) {
     // Stop the loop if an error occurs
     break;
