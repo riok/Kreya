@@ -1,0 +1,23 @@
+{
+  "details": {
+    "path": "/v1/books/{id}/sales",
+    "method": "GET",
+    "pathParams": [
+      {
+        "key": "id",
+        "value": "1"
+      }
+    ]
+  },
+  "script": {
+    "src": "Scripting Preview HTML Chart.js"
+  },
+  "requests": [
+    {
+      "contentType": "none"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "GET"
+}

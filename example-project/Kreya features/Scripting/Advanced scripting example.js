@@ -6,11 +6,11 @@ const messages = ['first message', 'second message', 'third message'];
 // store the messages as a "user variable", which is persisted
 kreya.variables.set('messages', messages);
 
-kreyaGrpc.onResponse(msg => {
+kreya.grpc.onResponse(msg => {
   kreya.test('Should equal the sent message', () => expect(msg.content.message).to.eql(messages[msg.index]));
 });
 
-kreyaGrpc.onCallCompleted(call => {
+kreya.grpc.onCallCompleted(call => {
   kreya.test('Status should be ok', () => expect(call.status.code).to.equal(0));
 
   kreya.trace(`Got ${call.responseCount} responses`);

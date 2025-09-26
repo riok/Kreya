@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-kreyaRest.onCallCompleted(call => {
+kreya.rest.onCallCompleted(call => {
   kreya.trace('The REST call completed.');
 
   kreya.test('Status code', () => expect(call.status.code).to.equal(200));

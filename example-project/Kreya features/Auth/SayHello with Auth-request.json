@@ -1,5 +1,5 @@
 {
-  // A configured authentication can be selected in the "Auth" tab. 
+  // A configured authentication can be selected in the "Auth" tab.
   // It is also accessible via templating.
   // Send the operation and take a look at the "Trace" tab to see the sent authentication value.
   // Change the active environment and send the operation again to see the updated value.
