@@ -7,7 +7,9 @@
       "importerName": "GrpcServerReflection",
       "createMissingOperations": false,
       "options": {
-        "endpoint": "https://example-api.kreya.app:9090"
+        "endpoint": "{{ env.grpc_endpoint }}",
+        "disableServerCertificateValidation": false,
+        "disableCookies": false
       }
     },
     {
@@ -16,7 +18,11 @@
       "importerName": "OpenApiUrlImporter",
       "createMissingOperations": false,
       "options": {
-        "url": "https://example-api.kreya.app/swagger/v1/swagger.json"
+        "url": "{{ env.rest_endpoint }}/swagger/v1/swagger.json",
+        "disableAutoRedirect": false,
+        "disableServerCertificateValidation": false,
+        "disableCookies": false,
+        "infiniteTimeout": false
       }
     }
   ],
@@ -28,8 +34,12 @@
       "options": {
         "username": "my-user-name",
         "password": "{{ env.basic_auth_password }}"
+      },
+      "advancedOptions": {
+        "key": "Authorization",
+        "addToType": "header",
+        "headerPrefix": "Basic "
       }
     }
-  ],
-  "certificates": []
+  ]
 }
