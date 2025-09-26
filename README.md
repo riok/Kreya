@@ -1,6 +1,6 @@
 # Kreya
 
-![Screenshot of Kreya](https://kreya.app/screenshot.png)
+![Screenshot of Kreya](https://kreya.app/screenshots/main.png)
 
 Kreya is a GUI client for gRPC, REST and WebSocket APIs. It makes calling APIs easy! Supported features:
 - Kreya stores the files locally in JSON format for easy git-syncing (or any other syncing software)
