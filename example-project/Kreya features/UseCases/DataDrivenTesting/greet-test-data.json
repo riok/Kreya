@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Regular",
+    "input": {
+      "name": "Peter"
+    },
+    "expectedOutput": {
+      "greeting": "Hello Peter"
+    }
+  },
+  {
+    "name": "Empty Name",
+    "input": {
+      "name": ""
+    },
+    "expectedOutput": {
+      "greeting": "Hello "
+    }
+  },
+  {
+    "name": "Single Character",
+    "input": {
+      "name": "A"
+    },
+    "expectedOutput": {
+      "greeting": "Hello A"
+    }
+  },
+  {
+    "name": "Whitespace Name",
+    "input": {
+      "name": "   "
+    },
+    "expectedOutput": {
+      "greeting": "Hello    "
+    }
+  },
+  {
+    "name": "Name With Spaces",
+    "input": {
+      "name": "John Doe"
+    },
+    "expectedOutput": {
+      "greeting": "Hello John Doe"
+    }
+  },
+  {
+    "name": "Name With Special Characters",
+    "input": {
+      "name": "@lice#123"
+    },
+    "expectedOutput": {
+      "greeting": "Hello @lice#123"
+    }
+  },
+  {
+    "name": "Unicode Characters",
+    "input": {
+      "name": "Élise"
+    },
+    "expectedOutput": {
+      "greeting": "Hello Élise"
+    }
+  },
+  {
+    "name": "Long Name",
+    "input": {
+      "name": "ThisIsAVeryLongNameToTestTheAPIHandling"
+    },
+    "expectedOutput": {
+      "greeting": "Hello ThisIsAVeryLongNameToTestTheAPIHandling"
+    }
+  }
+]

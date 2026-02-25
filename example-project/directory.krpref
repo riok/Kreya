@@ -18,11 +18,13 @@
               "key": "info-text",
               "value": "i am a default settings header"
             }
-          ],
-          "pathParams": []
+          ]
         },
         "websocket": {
           "endpoint": "{{ env.websocket_endpoint }}"
+        },
+        "graphql": {
+          "endpoint": "{{ env.graphql_endpoint }}"
         }
       }
     }

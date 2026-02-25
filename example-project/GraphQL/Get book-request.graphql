@@ -1,0 +1,6 @@
+query getBook($bookId: Int = 1) {
+  book(id: $bookId) {
+    id
+    name
+  }
+}

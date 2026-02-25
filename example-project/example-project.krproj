@@ -5,7 +5,6 @@
       "id": "463869a1-4cf8-470d-871d-c873192881c7",
       "name": "gRPC server reflection importer",
       "importerName": "GrpcServerReflection",
-      "createMissingOperations": false,
       "options": {
         "endpoint": "{{ env.grpc_endpoint }}",
         "disableServerCertificateValidation": false,
@@ -16,13 +15,20 @@
       "id": "3173a966-56b1-435f-9a60-937058ec6c80",
       "name": "REST OpenAPI URL importer",
       "importerName": "OpenApiUrlImporter",
-      "createMissingOperations": false,
       "options": {
         "url": "{{ env.rest_endpoint }}/swagger/v1/swagger.json",
         "disableAutoRedirect": false,
         "disableServerCertificateValidation": false,
         "disableCookies": false,
         "infiniteTimeout": false
+      }
+    },
+    {
+      "id": "c04aa4e5-9f19-4948-8d71-eb4cb97ea2c1",
+      "name": "GraphQL Schema introspection importer",
+      "importerName": "GraphQlSchemaIntrospection",
+      "options": {
+        "endpoint": "{{ env.graphql_endpoint }}"
       }
     }
   ],
@@ -41,5 +47,7 @@
         "headerPrefix": "Basic "
       }
     }
-  ]
+  ],
+  "certificates": [],
+  "proxies": []
 }
