@@ -1,0 +1,11 @@
+{
+  "details": {},
+  "requests": [
+    {
+      "location": "Update book-request.graphql"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "graphql",
+  "importStreamId": "c04aa4e5-9f19-4948-8d71-eb4cb97ea2c1"
+}

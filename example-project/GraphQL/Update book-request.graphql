@@ -1,0 +1,5 @@
+mutation {
+  updateBook(id: 1, name: "How to get started with Kreya") {
+    name
+  }
+}

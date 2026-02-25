@@ -5,6 +5,7 @@
     "grpc_endpoint": "https://example-api.kreya.app:9090",
     "rest_endpoint": "https://example-api.kreya.app",
     "websocket_endpoint": "wss://example-api.kreya.app",
+    "graphql_endpoint": "https://example-api.kreya.app/graphql",
     "basic_auth_password": "production-password"
   }
 }

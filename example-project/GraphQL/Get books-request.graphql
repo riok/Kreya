@@ -1,0 +1,10 @@
+query {
+  books {
+    id
+    name
+    sales {
+      date
+      quantity
+    }
+  }
+}

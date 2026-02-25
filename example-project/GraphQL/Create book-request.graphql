@@ -1,0 +1,6 @@
+mutation {
+  createBook(name: "{{ faker.commerce.product_name }}") {
+    id
+    name
+  }
+}

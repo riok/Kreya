@@ -1,0 +1,6 @@
+subscription {
+  bookCreated {
+    id
+    name
+  }
+}
